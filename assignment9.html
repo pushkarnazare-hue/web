@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 9</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Assignment9</h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+<a href="index.html">Home</a>
+<a href="assignment10.html">Next → Assignment 2</a>
+</nav>
+
+<div class="container">
+<div class="card">
+<h2>Web Technology Basics</h2>
+<p>HTML - Structure</p>
+<p>CSS - Styling</p>
+<p>JavaScript - Interactivity</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+        </div>
+        <button class="btn">Register</button>
+        <div class="note" id="msg"></div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    function validateForm(){
+      const p=document.getElementById('pass').value;
+      const cp=document.getElementById('cpass').value;
+      const msg=document.getElementById('msg');
+      if(p.length<6){msg.textContent='Password must be at least 6 characters';return false}
+      if(p!==cp){msg.textContent='Passwords do not match';return false}
+      msg.textContent='Registered successfully!';
+      return false; // prevent submit for demo
+    }
+  </script>
+</body>
+</html>

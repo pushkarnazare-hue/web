@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Assignment 4</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>Assignment4 </h1>
+</header>
+
+<!-- Navigation -->
+<nav>
+<a href="index.html">Home</a>
+<a href="assignment5.html">Next → Assignment 2</a>
+</nav>
+
+<div class="container">
+<div class="card">
+<h2>Web Technology Basics</h2>
+<p>HTML - Structure</p>
+<p>CSS - Styling</p>
+<p>JavaScript - Interactivity</p>
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Creative List Design</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 300px;
+    margin: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+/* List Styling */
+ul li {
+    list-style: "🔥 ";
+    margin: 10px 0;
+}
+
+ol li {
+    margin: 10px 0;
+}
+
+.custom li {
+    list-style: none;
+    background: white;
+    color: black;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.custom li:hover {
+    background: #ffdd57;
+    transform: translateX(10px);
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>✨ Creative HTML List Demonstration ✨</h1>
+
+<div class="container">
+
+    <!-- Unordered List -->
+    <div class="card">
+        <h2>Unordered List</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+    </div>
+
+    <!-- Ordered List -->
+    <div class="card">
+        <h2>Ordered List</h2>
+        <ol>
+            <li>Wake Up</li>
+            <li>Study</li>
+            <li>Practice Coding</li>
+            <li>Sleep</li>
+        </ol>
+    </div>
+
+    <!-- Nested List -->
+    <div class="card">
+        <h2>Nested List</h2>
+        <ul>
+            <li>Fruits
+                <ul>
+                    <li>Apple</li>
+                    <li>Mango</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ul>
+                    <li>Carrot</li>
+                    <li>Potato</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Custom Styled List -->
+    <div class="card">
+        <h2>Custom Styled List</h2>
+        <ul class="custom">
+            <li>UI Design</li>
+            <li>Web Development</li>
+            <li>App Development</li>
+            <li>AI & ML</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
